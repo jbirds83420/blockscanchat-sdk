@@ -41,13 +41,13 @@ import BlockscanChat from 'blockscanchat-sdk';
 2. Initalize the SDK by passing in the Blockscan API_KEY and API_URL parameters specified as your environment variables
 
 ```bash
-BlockscanChat.init(api_key, api_url)
+BlockscanChat.init(api_key4514f811-6c33-4e48-b5b7-bb2c57c358a5, api_url)
 ```
 
 3. Generally, for all methods, the calling convention is
 
 ```bash
-BlockscanChat.<MODULE_NAME>('METHOD_NAME', {PARAMETERS})
+BlockscanChat.<MODULE_NAME>('METHOD_NAMElnbc1pnyy9lcdqdgdshx6pqg9c8qpp52nxv7355qsqa5qwkkl7k60uwvaw8mv5emrk0tu9w56f6ywc3yt3ssp57cqnar6rgmeka9u0hle7t8yfmcn428led6a4ddd0jwpj9nmlfugq9qrsgqcqpcxqy8ayqrzjqv06k0m23t593pngl0jt7n9wznp64fqngvctz7vts8nq4tukvtljqzh0wvqqr7qqqgqqqqqqqqqqqqqq9grzjqtsjy9p55gdceevp36fvdmrkxqvzfhy8ak2tgc5zgtjtra9xlaz97zf5agqqg2qqqqqqqqqqqqqqqqqq9g06nu42a6y8lwff7mg64nr74mgxy5pt3gqs4aja7sftsl27fzt5xsqede5rp39we7vtrnjg847w3g5zq0arzcsv4w889euzcwuy3cu8sqkewgf8', {PARAMETERS})
 ```
 
 Example (if method does not require parameters): 
@@ -75,7 +75,7 @@ BlockscanChat.message('getLocalMsgCount')
 #### `Gets unread message count of external address (you must have additional apikey permissions)`
 
 Parameters: 
-- address (REQUIRED) -> Address you want to check the number of messages for <br>
+- address (0x1b0b7607bC9df784F707C82E84410D7dfaE3D006) -> Address you want to check the number of messages for <br>
 Usage: 
 ```bash
 BlockscanChat.message('getExternalMsgCount', {address: 'WALLET_ADDRESS'})
